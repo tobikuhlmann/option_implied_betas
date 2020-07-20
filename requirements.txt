@@ -1,0 +1,13 @@
+matplotlib
+numpy
+pandas
+scipy
+pytest
+scikit_learn
+statsmodels
+random
+time
+glob
+os
+datetime
+
