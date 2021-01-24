@@ -185,7 +185,7 @@ class OptionImpliedBetas():
     sum1 = OptionImpliedBetas.sum_of_sum(w=w, sigma=sigma, roh=roh)
     sum2 = OptionImpliedBetas.sum_of_sum(w=w, sigma=sigma, roh=(1 - roh))
 
-    alpha_t = (sigma_q_m - sum1) / sum2
+    alpha_t = - (sigma_q_m ** 2 - sum1) / sum2
 
     return alpha_t
 
